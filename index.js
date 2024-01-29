@@ -5,7 +5,7 @@
 
 function findStringLength(str) {
   // Використовуємо властивість length, щоб знайти довжину рядка str
-  console.log(str.length);
+  return("str".length);
 }
 
 console.log("Завдання 1 ====================================");
@@ -18,7 +18,7 @@ console.log(
 
 function generateStringFromCharCode(code1, code2, code3, code4, code5) {
   // Використовуємо String.fromCharCode(), щоб створити рядок з символів code1, code2, code3, code4, code5 на основі їх кодів Unicode
-  console.log(String.fromCharCode(code1, code2, code3, code4, code5));
+  return(String.fromCharCode(code1, code2, code3, code4, code5));
 }
 
 console.log("Завдання 2 ====================================");
@@ -31,7 +31,7 @@ console.log(
 
 function generateStringFromCodePoint(code1, code2, code3, code4) {
   // Використовуємо String.fromCodePoint(), щоб створити рядок з символів code1, code2, code3, code4 на основі їх кодів Unicode
-  console.log(String.fromCodePoint(code1, code2, code3, code4));
+  return(String.fromCodePoint(code1, code2, code3, code4));
 }
 
 console.log("Завдання 3 ====================================");
@@ -44,7 +44,7 @@ console.log(
 
 function rawString() {
   // Використовуємо String.raw, щоб створити рядок "Привіт\u000A!", який ігнорує спеціальні символи
-  console.log(String.raw `Привіт\u000A!`);
+  return(String.raw `Привіт\u000A!`);
 }
 
 console.log("Завдання 4 ====================================");
@@ -54,7 +54,7 @@ console.log("rawString()", rawString()); // Виведе Привіт\u000A!
 
 function concatenateStrings(str1, str2) {
   // Використовуємо метод concat(), щоб об'єднати два рядки str1 та str2
-  console.log(str1.concat(str2));
+  return(str1.concat(str2));
 }
 
 console.log("Завдання 5 ====================================");
@@ -67,7 +67,7 @@ console.log(
 
 function checkIfIncludes(mainStr, subStr) {
   // Використовуємо метод includes(), щоб перевірити, чи входить підрядок subStr в рядок mainStr
-  console.log(mainStr.includes(subStr));
+  return(mainStr.includes(subStr));
 }
 
 console.log("Завдання 6 ====================================");
@@ -80,7 +80,7 @@ console.log(
 
 function findIndexOf(mainStr, subStr) {
   // Використовуємо метод indexOf(), щоб знайти індекс підрядка subStr в рядку mainStr
-  console.log(mainStr.indexOf(subStr));
+  return(mainStr.indexOf(subStr));
 
 }
 
@@ -94,7 +94,7 @@ console.log(
 
 function findLastIndexOf(mainStr, subStr) {
   // Використовуємо метод lastIndexOf(), щоб знайти останній індекс підрядка subStr в рядку mainStr
-  console.log(mainStr.lastIndexOf(subStr));
+  return(mainStr.lastIndexOf(subStr));
 }
 
 console.log("Завдання 8 ====================================");
@@ -107,7 +107,7 @@ console.log(
 
 function checkIfStartsWith(mainStr, subStr) {
   // Використовуємо метод startsWith(), щоб перевірити, чи починається рядок mainStr з певного підрядка subStr
-  console.log(mainStr.startsWith(subStr));
+  return(mainStr.startsWith(subStr));
 }
 
 console.log("Завдання 9 ====================================");
@@ -120,7 +120,7 @@ console.log(
 
 function checkIfEndsWith(mainStr, subStr) {
   // Використовуємо метод endsWith(), щоб перевірити, чи закінчується рядок mainStr певним підрядком subStr
-  console.log(mainStr.endsWith(subStr));
+  return(mainStr.endsWith(subStr));
 }
 
 console.log("Завдання 10 ====================================");
@@ -220,6 +220,7 @@ console.log('convertCase("abc", "middle")', convertCase("abc", "middle")); // В
 
 function repeatString(string, times) {
   // Використовуємо метод repeat(), щоб повторити рядок певну кількість разів times
+  return(string.repeat(3))
 }
 
 console.log("Завдання 15 ====================================");
@@ -229,7 +230,7 @@ console.log('repeatString("abc", 3)', repeatString("abc", 3)); // Виведе '
 
 function sliceString(string, startIndex, endIndex) {
   // Використовуємо метод slice(), щоб видалити частину рядка string між двома індексами startIndex та endIndex
-  console.log(string.slice(0, 5));
+  return(string.slice(0, 5));
 }
 
 console.log("Завдання 16 ====================================");
@@ -242,7 +243,7 @@ console.log(
 
 function substringString(string, startIndex, endIndex) {
   // Використовуємо метод substring(), щоб видалити частину рядка string між двома індексами startIndex та endIndex
-  console.log(string.substring(-0, 5));
+  return(string.substring(-0, 5));
 }
 
 console.log("Завдання 17 ====================================");
